@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Basic App</string>
+    <string name="implicit">Start Activity Implicitly</string>
+    <string name="explicit">Start Activity Explicitly</string>
+</resources>
