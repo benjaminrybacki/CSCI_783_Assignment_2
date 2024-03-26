@@ -13,12 +13,22 @@
         android:theme="@style/Theme.BasicApp"
         tools:targetApi="31">
         <activity
+            android:name=".ImageActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BasicAppImage">
+            <intent-filter>
+                <action android:name="com.example.basicapp.START_IMAGE_ACTIVITY_IMPLICITLY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.BasicApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -28,6 +38,7 @@
             android:theme="@style/Theme.BasicApp">
             <intent-filter>
                 <action android:name="com.example.basicapp.START_SECOND_ACTIVITY_IMPLICITLY" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -75,6 +75,14 @@ fun GreetingWithButton(message: String, modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(100.dp))
 
+        Button(onClick = {
+            val explicitIntent = Intent(context, ImageActivity::class.java)
+            startActivity(context, explicitIntent, null)
+        }) {
+            Text(stringResource(R.string.image))
+        }
+
+        Spacer(modifier = Modifier.height(100.dp))
     }
 }
 

@@ -2,4 +2,6 @@
     <string name="app_name">Basic App</string>
     <string name="implicit">Start Activity Implicitly</string>
     <string name="explicit">Start Activity Explicitly</string>
+    <string name="image">View Image Activity</string>
+    <string name="capture">Capture Image</string>
 </resources>
