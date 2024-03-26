@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/camera_button"
         android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:layout_marginStart="150dp"
         android:text="@string/capture" />
 
